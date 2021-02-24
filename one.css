@@ -1,1 +1,12 @@
-
+.a{
+  color: brown; 
+  padding:3%;
+}
+.b{
+  style:color:rgb(177, 71, 122);
+}
+.c{
+  color:green;
+  text-decoration: darkgreen;
+  padding: 2% ;
+}
