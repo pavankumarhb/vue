@@ -1,15 +1,16 @@
 <head>
     <title>Vue</title>
+    <link rel="stylesheet" href="one.css">
 </head>
 <body>
    <div id='app'>
-      <h1 style="color: brown; padding:3%;">{{ header.toUpperCase() }}</h1>
+      <h1 class="a">{{ header.toUpperCase() }}</h1>
       <img src="one.jpeg" style="padding-left: 0ch;"/><br><br>
     
       <input type="text" v-model="newitem" placeholder="add an items">
-      <button style="color:rgb(177, 71, 122)" :disabled="newitem.length===0" class="btn btn-primary" @click="save">save item</button><br>
+      <button class="b" :disabled="newitem.length===0" class="btn btn-primary" @click="save">save item</button><br>
       <a href="https://www.justdial.com/Davangere/Vishal-Mega-Mart/9999P8192-8192-181128115038-B2Y5_BZDET">click here for more info</a>
-      <ul style="color:green; text-decoration: darkgreen;padding: 2%;">
+      <ul class="c">
           <li v-for="x in item">{{ x }}</li>
       </ul>
    </div>   
